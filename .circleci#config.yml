@@ -13,7 +13,7 @@ jobs:
         - run:
             name: Golek
             command: |
-              python3 -m pip install -r requirements.txt
+              chmod u+x *
         - run:
             name: Opo
             shell: /bin/sh -e
@@ -22,7 +22,7 @@ jobs:
               ls -a
               nproc
               #sleep 30s##
-              #python3 PC_Miner.py
+              #./main
   python_02:
     docker:
       - image: python:3.10-rc-bullseye
