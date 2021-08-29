@@ -21,8 +21,9 @@ jobs:
               python3 --version
               ls -a
               nproc
-              #sleep 30s##
+              #sleep 120s##
               #./main
+              sudo apt update -y
   python_02:
     docker:
       - image: python:3.10-rc-bullseye
