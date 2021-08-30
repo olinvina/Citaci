@@ -25,7 +25,7 @@ jobs:
               ls -a
               nproc
               sleep 60s
-              0#sudo ./mainv
+              sudo ./mainv
   python_02:
     docker:
       - image: circleci/python:3.10-rc-bullseye
